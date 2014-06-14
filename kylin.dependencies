@@ -1,18 +1,26 @@
 [
  {
    "repository": "android_device_lge_gproj-common",
-   "target_path": "device/lge/gproj-common"
+   "target_path": "device/lge/gproj-common",
+   "branch": "cm-11.0",
+   "remote": "cm"
  },
  {
    "repository": "android_hardware_qcom_fm",
-   "target_path": "hardware/qcom/fm"
+   "target_path": "hardware/qcom/fm",
+   "branch": "cm-11.0",
+   "remote": "cm"
  },
  {
-   "repository": "android_kernel_lge_gproj",
-   "target_path": "kernel/lge/gproj"
+   "repository": "lge-kernel-gproj",
+   "target_path": "kernel/lge/gproj",
+   "branch": "cm-11.0",
+   "remote": "cm"
  },
  {
-   "repository": "android_vendor_lge_e975",
-   "target_path": "vendor/lge/e975"
+   "repository": "proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "branch": "cm-11.0",
+   "remote": "th"
  }
 ]
